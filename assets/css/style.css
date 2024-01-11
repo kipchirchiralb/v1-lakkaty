@@ -838,7 +838,9 @@ body.active {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
-
+  .partners-list.grid-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   /**
    * PROJECT
    */
@@ -998,5 +1000,9 @@ body.active {
 
   .project-list > *:is(:first-child, :nth-child(2)) {
     width: calc(50% - 30px);
+  }
+
+  .partners-list.grid-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
